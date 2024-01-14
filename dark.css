@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+@media(min-width:790px){
+ .second__page{
+    height: 100vh;
+ }
+}
+@media(max-width:790px){
+    .second__page{
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: space-around;
+      
+
+    }
+    .column1__block{
+        margin-top: 10vh;
+    }
+    
+    .column2__block{
+        margin-left: 5vw;
+    }
+    .column3__block{
+        margin-left: 10vw;
+    }
+}
+.wrapper{
+    padding: 0;
+    margin: 0;
+  
+    font-family: 'Kufam', sans-serif;
+}
+.first__page{
+    background: url("ntvyfznevfyyjcnm.jpg")0 0/100% 100% no-repeat ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text__block{
+    width: 100%;
+    max-width: 300px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: calc(100vw/13);
+    margin-left: 5vw;
+}
+.text{
+    width: 100%;
+    max-width: 300px;
+}
+.second__page{
+    background: url("темнаятуманность.jpg");
+    max-width: 100%;
+    
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.each__column{
+    width: 100%;
+    max-width: 200px;
+    color: aliceblue;
+
+    position: relative;
+    top: -40px;
+   
+}
+.star__block{
+    text-align: center;
+}
+
+.column1__text{
+    
+
+}
+.column1__block{
+  margin-left: 5vw ;
+  
+  
+}
+.column3__block{
+    margin-right: 5vw;
+}
